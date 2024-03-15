@@ -9,3 +9,12 @@ length. The hardware components of our computer include:
 6. A Control Unit designed using Logisim's combinational analysis.
 7. An Arithmetic Logic Unit (ALU) supporting operations such as addition, 
 subtraction, XOR, AND, OR, etc
+
+INSTRUCTION FORMAT
+There are two parts of an instruction that can be divided into. They are:
+Operation Code (Opcode): It specifies the operation for an instruction.
+Address: It specifies the registers and/or memory locations assigned for a specific 
+operation. In the case of an 8-bit computer, its inherent design dictates a word size of 
+8 bits. The Memory Address Register (MAR), responsible for storing RAM addresses, 
+is designed with a 4-bit capacity. Consequently, the RAM size is limited to 2^4 = 16 
+bytes
