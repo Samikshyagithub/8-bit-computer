@@ -17,4 +17,13 @@ Address: It specifies the registers and/or memory locations assigned for a speci
 operation. In the case of an 8-bit computer, its inherent design dictates a word size of 
 8 bits. The Memory Address Register (MAR), responsible for storing RAM addresses, 
 is designed with a 4-bit capacity. Consequently, the RAM size is limited to 2^4 = 16 
-bytes
+bytes.
+
+ADDRESSING MODES
+Immediate Addressing
+The address of the operand is loaded directly into the A register in immediate 
+addressing mode.
+Direct Addressing
+The address of the operand is stored in the memory location specified in the
+instruction in the direct addressing mode.
+
